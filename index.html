@@ -59,7 +59,7 @@ h1 .grad{background:linear-gradient(110deg,var(--acc1),var(--acc2));
   padding:26px;overflow:hidden;transition:.35s cubic-bezier(.2,.7,.3,1);
   opacity:0;transform:translateY(24px)}
 .card.show{opacity:1;transform:none}
-.card::before{content:"";position:absolute;inset:0;border-radius:24px;padding:1px;
+.card::before{content:"";position:absolute;inset:0;border-radius:24px;padding:1px;pointer-events:none;
   background:linear-gradient(140deg,rgba(46,230,168,.4),transparent 40%);
   -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);
   -webkit-mask-composite:xor;mask-composite:exclude;opacity:0;transition:.35s}
